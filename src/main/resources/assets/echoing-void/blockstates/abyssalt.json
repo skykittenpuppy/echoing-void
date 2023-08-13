@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "echoing-void:block/abyssalt",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "echoing-void:block/abyssalt"
+    },
+    "axis=z": {
+      "model": "echoing-void:block/abyssalt",
+      "x": 90
+    }
+  }
+}

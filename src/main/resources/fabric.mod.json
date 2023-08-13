@@ -3,32 +3,22 @@
 	"id": "echoing-void",
 	"version": "${version}",
 	"name": "Echoing Void",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "",
 	"authors": [
-		"Me!"
+		"skykittenpuppy"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/echoing-void/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"gay.beegirl.ExampleMod"
-		],
-		"client": [
-			"gay.beegirl.ExampleModClient"
+          "gay.beegirl.EchoingVoid"
 		]
 	},
-	"mixins": [
-		"echoing-void.mixins.json",
-		{
-			"config": "echoing-void.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.20.1",
