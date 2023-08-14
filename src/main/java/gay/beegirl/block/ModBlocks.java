@@ -11,8 +11,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+    public static final Block FLAXEN_EPHYTA = registerBlock("flaxen_ephyta",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.CRIMSON_NYLIUM)));
     public static final Block ABYSSALT = registerBlock("abyssalt",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.BASALT)));
+    public static final Block HARMONIC_LOG = registerBlock("harmonic_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG)));
+    public static final Block HARMONIC_PLANKS = registerBlock("harmonic_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
+    public static final Block HARMONIC_MOSAIC = registerBlock("harmonic_mosaic",
+            new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
+    public static final Block HARMONIC_LEAVES = registerBlock("harmonic_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES)));
+    public static final Block END_STONE_PILLAR = registerBlock("end_stone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

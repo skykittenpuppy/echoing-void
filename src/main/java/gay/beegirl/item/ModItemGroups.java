@@ -14,8 +14,14 @@ public class ModItemGroups {
     public static final ItemGroup ECHOING_VOID = Registry.register(Registries.ITEM_GROUP,
             new Identifier(EchoingVoid.MOD_ID, "echoing_void"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.echoing_void"))
-                    .icon(() -> new ItemStack(ModBlocks.ABYSSALT)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.FLAXEN_EPHYTA)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.FLAXEN_EPHYTA);
                         entries.add(ModBlocks.ABYSSALT);
+                        entries.add(ModBlocks.HARMONIC_LOG);
+                        entries.add(ModBlocks.HARMONIC_PLANKS);
+                        entries.add(ModBlocks.HARMONIC_MOSAIC);
+                        entries.add(ModBlocks.HARMONIC_LEAVES);
+                        entries.add(ModBlocks.END_STONE_PILLAR);
                     }).build());
     public static void registerItemGroups(){
         EchoingVoid.LOGGER.info("Registering Item Groups - "+EchoingVoid.MOD_ID);
