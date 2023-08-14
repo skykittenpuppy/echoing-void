@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "echoing-void:block/end_gateway_pedestal"
+    }
+  }
+}

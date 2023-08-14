@@ -3,6 +3,7 @@ package gay.beegirl;
 import gay.beegirl.block.ModBlocks;
 import gay.beegirl.item.ModItemGroups;
 import gay.beegirl.item.ModItems;
+import gay.beegirl.registries.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,6 +17,7 @@ public class EchoingVoid implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerBlocks();
-		//ModItems.registerItems();
+		ModItems.registerItems();
+		ModRegistries.registerStrippables();
 	}
 }

@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"1": "echoing-void:block/harmonic_leaves_outer",
-		"particle": "echoing-void:block/harmonic_leaves",
-		"all": "echoing-void:block/harmonic_leaves"
+		"1": "echoing-void:block/edgehanger_leaves_outer",
+		"particle": "echoing-void:block/edgehanger_leaves",
+		"all": "echoing-void:block/edgehanger_leaves"
 	},
 	"elements": [
 		{

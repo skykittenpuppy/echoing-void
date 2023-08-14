@@ -18,10 +18,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLAXEN_EPHYTA);
                         entries.add(ModBlocks.ABYSSALT);
                         entries.add(ModBlocks.HARMONIC_LOG);
+                        entries.add(ModBlocks.STRIPPED_HARMONIC_LOG);
                         entries.add(ModBlocks.HARMONIC_PLANKS);
                         entries.add(ModBlocks.HARMONIC_MOSAIC);
                         entries.add(ModBlocks.HARMONIC_LEAVES);
+                        entries.add(ModBlocks.EDGEHANGER_PLANKS);
+                        entries.add(ModBlocks.EDGEHANGER_LEAVES);
                         entries.add(ModBlocks.END_STONE_PILLAR);
+                        entries.add(ModBlocks.END_GATEWAY_PEDESTAL);
                     }).build());
     public static void registerItemGroups(){
         EchoingVoid.LOGGER.info("Registering Item Groups - "+EchoingVoid.MOD_ID);

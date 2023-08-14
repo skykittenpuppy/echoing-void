@@ -3,8 +3,12 @@
   "block.echoing-void.flaxen_ephyta": "Flaxen Ephyta",
   "block.echoing-void.abyssalt": "Abyssalt",
   "block.echoing-void.harmonic_log": "Harmonic Log",
+  "block.echoing-void.stripped_harmonic_log": "Stripped Harmonic Log",
   "block.echoing-void.harmonic_planks": "Harmonic Planks",
-  "block.echoing-void.harmonic_planks": "Harmonic Mosaic",
+  "block.echoing-void.harmonic_mosaic": "Harmonic Mosaic",
   "block.echoing-void.harmonic_leaves": "Harmonic Leaves",
-  "block.echoing-void.end_stone_pillar": "End Stone Pillar"
+  "block.echoing-void.edgehanger_planks": "Edgehanger Planks",
+  "block.echoing-void.edgehanger_leaves": "Edgehanger Leaves",
+  "block.echoing-void.end_stone_pillar": "End Stone Pillar",
+  "block.echoing-void.end_gateway_pedestal": "End Gateway Pedestal"
 }

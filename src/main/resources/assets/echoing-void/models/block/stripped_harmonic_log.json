@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"end": "echoing-void:block/harmonic_log_top",
-		"side": "echoing-void:block/harmonic_log",
+		"end": "echoing-void:block/stripped_harmonic_log_top",
+		"side": "echoing-void:block/stripped_harmonic_log",
         "particle": "#side"
 	},
 	"elements": [
