@@ -16,7 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "gay.beegirl.EchoingVoid"
+			"gay.beegirl.EchoingVoid"
+		],
+		"client": [
+			"gay.beegirl.EchoingVoidClient"
 		]
 	},
 	"depends": {

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "echoing-void:block/harmonic_door_top"
+    "layer0": "echoing-void:item/harmonic_door"
   }
 }

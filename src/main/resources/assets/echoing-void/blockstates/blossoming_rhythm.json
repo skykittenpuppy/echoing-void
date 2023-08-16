@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "echoing-void:block/blossoming_rhythm_bottom"
+    },
+    "half=upper": {
+      "model": "echoing-void:block/blossoming_rhythm_top"
+    }
+  }
+}

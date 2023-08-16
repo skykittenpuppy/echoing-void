@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.sapling.OakSaplingGenerator;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -24,7 +23,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BASALT)));
 
     public static final Block EDGEHANGER_LEAVES = registerBlock("edgehanger_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES)));
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque()));
     public static final Block EDGEHANGER_LOG = registerBlock("edgehanger_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG)));
     public static final Block EDGEHANGER_LOG_STRIPPED = registerBlock("edgehanger_log_stripped",
@@ -32,7 +31,7 @@ public class ModBlocks {
     public static final Block EDGEHANGER_PLANKS = registerBlock("edgehanger_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
     public static final Block EDGEHANGER_SAPLING = registerBlock("edgehanger_sapling",
-            new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING)));
+            new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).nonOpaque()));
 
     public static final Block END_STONE_BRICKS_CRACKED = registerBlock("end_stone_bricks_cracked",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
@@ -63,7 +62,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     public static final Block HARMONIC_LEAVES = registerBlock("harmonic_leaves",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES)));
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).nonOpaque()));
     public static final Block HARMONIC_LOG = registerBlock("harmonic_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG)));
     public static final Block HARMONIC_LOG_STRIPPED = registerBlock("harmonic_log_stripped",
@@ -71,7 +70,11 @@ public class ModBlocks {
     public static final Block HARMONIC_PLANKS = registerBlock("harmonic_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
     public static final Block HARMONIC_SAPLING = registerBlock("harmonic_sapling",
-            new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING)));
+            new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).nonOpaque()));
+    public static final Block HARMONIC_LATTICE = registerBlock("harmonic_lattice",
+            new PaneBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_FENCE).nonOpaque()));
+    public static final Block HARMONIC_DOOR = registerBlock("harmonic_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_DOOR).nonOpaque(), BlockSetType.SPRUCE));
 
     public static final Block PRASINE_BLOCK = registerBlock("prasine_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -104,35 +107,35 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
 
     public static final Block AMBER_SHRUB = registerBlock("amber_shrub",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block AMBER_VINE = registerBlock("amber_vine",
-            new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE)));
+            new VineBlock(FabricBlockSettings.copyOf(Blocks.VINE).nonOpaque()));
     public static final Block BEIGE_GRASS = registerBlock("beige_grass",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block BEIGE_GRASS_SHORT = registerBlock("beige_grass_short",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block BEIGE_GRASS_TALL = registerBlock("beige_grass_tall",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block BEIGE_GRASS_FLOWERING = registerBlock("beige_grass_flowering",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block BLOSSOMING_RHYTHM = registerBlock("blossoming_rhythm",
-            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque()));
     public static final Block BULBOUS_MELODY = registerBlock("bulbous_melody",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block BULBOUS_MELODY_TALL = registerBlock("bulbous_melody_tall",
-            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque()));
     public static final Block FLAXEN_FUNNELS = registerBlock("flaxen_funnels",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block FLAXEN_FUNNELS_TALL = registerBlock("flaxen_funnels_tall",
-            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque()));
     public static final Block FLOWERING_VOID = registerBlock("flowering_void",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block TAWNY_FERN = registerBlock("tawny_fern",
-            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS)));
+            new FlowerBlock(StatusEffects.LUCK, 0, FabricBlockSettings.copyOf(Blocks.GRASS).nonOpaque()));
     public static final Block TAWNY_FERN_TALL = registerBlock("tawny_fern_tall",
-            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque()));
     public static final Block VOID_STALKS = registerBlock("void_stalks",
-            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH)));
+            new TallFlowerBlock(FabricBlockSettings.copyOf(Blocks.ROSE_BUSH).nonOpaque()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

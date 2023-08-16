@@ -1,3 +1,6 @@
 {
-  "parent": "echoing-void:block/flowering_void"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "echoing-void:item/flowering_void"
+  }
 }

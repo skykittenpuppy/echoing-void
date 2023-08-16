@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "echoing-void:block/tawny_fern_tall_bottom"
+    },
+    "half=upper": {
+      "model": "echoing-void:block/tawny_fern_tall_top"
+    }
+  }
+}

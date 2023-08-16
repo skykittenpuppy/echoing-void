@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cross",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "cross": "echoing-void:block/blossoming_rhythm_top"
+    "layer0": "echoing-void:block/blossoming_rhythm_top"
   }
 }

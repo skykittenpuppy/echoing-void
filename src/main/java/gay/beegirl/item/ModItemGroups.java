@@ -42,6 +42,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.HARMONIC_LOG_STRIPPED);
                         entries.add(ModBlocks.HARMONIC_PLANKS);
                         entries.add(ModBlocks.HARMONIC_SAPLING);
+                        entries.add(ModBlocks.HARMONIC_LATTICE);
+                        entries.add(ModBlocks.HARMONIC_DOOR);
                         entries.add(ModBlocks.PRASINE_BLOCK);
                         entries.add(ModBlocks.PRASINE_ENGRAVED);
                         entries.add(ModBlocks.PRASINE_END_STONE_PILLAR);

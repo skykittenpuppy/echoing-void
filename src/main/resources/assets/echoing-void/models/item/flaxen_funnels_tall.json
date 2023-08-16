@@ -1,3 +1,6 @@
 {
-  "parent": "echoing-void:block/flaxen_funnels_tall_top"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "echoing-void:block/flaxen_funnels_tall_top"
+  }
 }

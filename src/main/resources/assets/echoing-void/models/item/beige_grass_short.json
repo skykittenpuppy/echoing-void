@@ -1,3 +1,6 @@
 {
-  "parent": "echoing-void:block/beige_grass_short"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "echoing-void:block/beige_grass_short"
+  }
 }
