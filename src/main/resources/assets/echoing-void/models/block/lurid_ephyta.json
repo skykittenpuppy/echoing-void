@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+		"bottom": "echoing-void:block/viridacite_top",
+		"side": "echoing-void:block/lurid_ephyta_side",
+		"top": "echoing-void:block/lurid_ephyta"
+  }
+}

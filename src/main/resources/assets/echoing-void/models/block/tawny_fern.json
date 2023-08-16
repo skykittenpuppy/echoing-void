@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "echoing-void:block/tawny_fern"
+  }
+}

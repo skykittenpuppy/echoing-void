@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "bottom": "minecraft:block/end_stone",
-    "side": "echoing-void:block/flaxen_ephyta_side",
-    "top": "echoing-void:block/flaxen_ephyta"
+		"bottom": "block/end_stone",
+		"side": "echoing-void:block/flaxen_ephyta_side",
+		"top": "echoing-void:block/flaxen_ephyta"
   }
 }

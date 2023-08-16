@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "echoing-void:block/viridacite_edgehanger_frame"
+  }
+}

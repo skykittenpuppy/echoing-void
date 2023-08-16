@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "echoing-void:block/harmonic_door_bottom",
+    "top": "echoing-void:block/harmonic_door_top"
+  }
+}

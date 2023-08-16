@@ -1,14 +1,68 @@
 {
   "itemgroup.echoing_void": "Echoing Void",
-  "block.echoing-void.flaxen_ephyta": "Flaxen Ephyta",
+
   "block.echoing-void.abyssalt": "Abyssalt",
-  "block.echoing-void.harmonic_log": "Harmonic Log",
-  "block.echoing-void.stripped_harmonic_log": "Stripped Harmonic Log",
-  "block.echoing-void.harmonic_planks": "Harmonic Planks",
-  "block.echoing-void.harmonic_mosaic": "Harmonic Mosaic",
-  "block.echoing-void.harmonic_leaves": "Harmonic Leaves",
-  "block.echoing-void.edgehanger_planks": "Edgehanger Planks",
+  "block.echoing-void.abyssalt_bricks": "Abyssalt Bricks",
+  "block.echoing-void.abyssalt_edgehanger_frame": "Edgehanger Framed Abyssalt",
+  "block.echoing-void.abyssalt_harmonic_frame": "Harmonic Framed Abyssalt",
+
   "block.echoing-void.edgehanger_leaves": "Edgehanger Leaves",
+  "block.echoing-void.edgehanger_log": "Edgehanger Log",
+  "block.echoing-void.edgehanger_log_stripped": "Stripped Edgehanger Log",
+  "block.echoing-void.edgehanger_planks": "Edgehanger Planks",
+  "block.echoing-void.edgehanger_sapling": "Edgehanger Sapling",
+
+  "block.echoing-void.end_stone_bricks_cracked": "Cracked End Stone Bricks",
+  "block.echoing-void.end_stone_chiseled": "Chiseled End Stone",
   "block.echoing-void.end_stone_pillar": "End Stone Pillar",
-  "block.echoing-void.end_gateway_pedestal": "End Gateway Pedestal"
+  "block.echoing-void.end_stone_smooth": "Smooth End Stone",
+  "block.echoing-void.end_stone_tiles": "End Stone Tiles",
+  "block.echoing-void.end_stone_tiles_cracked": "Cracked End Stone Tiles",
+  "block.echoing-void.end_stone_edgehanger_pillar": "Edgehanger End Stone Pillar",
+  "block.echoing-void.end_stone_harmonic_pillar": "Harmonic End Stone Pillar",
+  "block.echoing-void.end_stone_edgehanger_frame": "Edgehanger Framed End Stone",
+  "block.echoing-void.end_stone_harmonic_frame": "Harmonic Framed End Stone",
+
+  "block.echoing-void.endslate": "Endslate",
+  "block.echoing-void.endslate_edgehanger_frame": "Edgehanger Framed Endslate",
+  "block.echoing-void.endslate_harmonic_frame": "Harmonic Framed Endslate",
+
+  "block.echoing-void.harmonic_leaves": "Harmonic Leaves",
+  "block.echoing-void.harmonic_log": "Harmonic Log",
+  "block.echoing-void.harmonic_log_stripped": "Stripped Harmonic Log",
+  "block.echoing-void.harmonic_planks": "Harmonic Planks",
+  "block.echoing-void.harmonic_sapling": "Harmonic Sapling",
+
+  "block.echoing-void.prasine_block": "Block of Prasine",
+  "block.echoing-void.prasine_engraved": "Engraved Prasine",
+  "block.echoing-void.prasine_end_stone_pillar": "End Stone Prasine Pillar",
+
+  "block.echoing-void.purpur_mosaic": "Purpur Mosaic",
+  "block.echoing-void.purpur_tiles": "Purpur Tiles",
+
+  "block.echoing-void.viridacite": "Viridacite",
+  "block.echoing-void.viridacite_pillar": "Viridacite Pillar",
+  "block.echoing-void.viridacite_edgehanger_frame": "Edgehanger Framed Viridacite",
+  "block.echoing-void.viridacite_harmonic_frame": "Harmonic Framed Viridacite",
+
+  "block.echoing-void.flaxen_ephyta": "Flaxen Ephyta",
+  "block.echoing-void.lurid_ephyta": "Lurid Ephyta",
+  "block.echoing-void.condensed_void": "Condensed Void",
+  "block.echoing-void.obsidian_fancy": "WIP Fancy Obsidian",
+
+  "block.echoing-void.amber_shrub": "Amber Shrub",
+  "block.echoing-void.amber_vine": "Amber Vine",
+  "block.echoing-void.beige_grass": "Beige Grass",
+  "block.echoing-void.beige_grass_short": "Short Beige Grass",
+  "block.echoing-void.beige_grass_tall": "Tall Beige Grass",
+  "block.echoing-void.beige_grass_flowering": "Flowering Beige Grass",
+  "block.echoing-void.blossoming_rhythm": "Blossoming Rhythm",
+  "block.echoing-void.bulbous_melody": "Bulbous Melody",
+  "block.echoing-void.bulbous_melody_tall": "Tall Bulbous Melody",
+  "block.echoing-void.flaxen_funnels": "Flaxen Funnels",
+  "block.echoing-void.flaxen_funnels_tall": "Tall Flaxen Funnels",
+  "block.echoing-void.flowering_void": "Flowering Void",
+  "block.echoing-void.tawny_fern": "Tawny Fern",
+  "block.echoing-void.tawny_fern_tall": "Tall Tawny Fern",
+  "block.echoing-void.void_stalks": "Void Stalks"
 }

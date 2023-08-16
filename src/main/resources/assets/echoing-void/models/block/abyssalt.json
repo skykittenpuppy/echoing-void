@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_column",
   "textures": {
     "end": "echoing-void:block/abyssalt_top",
-    "side": "echoing-void:block/abyssalt_side"
+    "side": "echoing-void:block/abyssalt"
   }
 }
