@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "echoing-void:block/edgehanger_door_bottom",
+    "top": "echoing-void:block/edgehanger_door_top"
+  }
+}

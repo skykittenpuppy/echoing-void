@@ -10,8 +10,11 @@ public class EchoingVoidClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EDGEHANGER_LEAVES, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EDGEHANGER_SAPLING, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_EDGEHANGER_SAPLING, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EDGEHANGER_DOOR, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HARMONIC_LEAVES, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HARMONIC_SAPLING, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_HARMONIC_SAPLING, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HARMONIC_LATTICE, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HARMONIC_DOOR, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AMBER_SHRUB, RenderLayer.getCutout());

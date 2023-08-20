@@ -4,12 +4,14 @@ import gay.beegirl.EchoingVoid;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.block.sapling.OakSaplingGenerator;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlag;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -32,6 +34,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
     public static final Block EDGEHANGER_SAPLING = registerBlock("edgehanger_sapling",
             new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).nonOpaque()));
+    public static final Block POTTED_EDGEHANGER_SAPLING = createFlowerPotBlock("potted_edgehanger_sapling", EDGEHANGER_SAPLING);
+    public static final Block EDGEHANGER_FENCE = registerBlock("edgehanger_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_FENCE).nonOpaque()));
+    public static final Block EDGEHANGER_FENCE_GATE = registerBlock("edgehanger_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_FENCE_GATE).nonOpaque(), WoodType.SPRUCE));
+    public static final Block EDGEHANGER_DOOR = registerBlock("edgehanger_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_DOOR).nonOpaque(), BlockSetType.SPRUCE));
 
     public static final Block END_STONE_BRICKS_CRACKED = registerBlock("end_stone_bricks_cracked",
             new Block(FabricBlockSettings.copyOf(Blocks.END_STONE_BRICKS)));
@@ -71,6 +80,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS)));
     public static final Block HARMONIC_SAPLING = registerBlock("harmonic_sapling",
             new SaplingBlock(new OakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).nonOpaque()));
+    public static final Block POTTED_HARMONIC_SAPLING = createFlowerPotBlock("potted_harmonic_sapling", HARMONIC_SAPLING);
     public static final Block HARMONIC_LATTICE = registerBlock("harmonic_lattice",
             new PaneBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_FENCE).nonOpaque()));
     public static final Block HARMONIC_DOOR = registerBlock("harmonic_door",
@@ -144,6 +154,10 @@ public class ModBlocks {
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, new Identifier(EchoingVoid.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
+    }
+    public static FlowerPotBlock createFlowerPotBlock(String name, Block flower) {
+        return Registry.register(Registries.BLOCK, new Identifier(EchoingVoid.MOD_ID, name),
+                new FlowerPotBlock(flower, AbstractBlock.Settings.create().breakInstantly().nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     }
 
     public static void registerBlocks() {

@@ -24,6 +24,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EDGEHANGER_LOG_STRIPPED);
                         entries.add(ModBlocks.EDGEHANGER_PLANKS);
                         entries.add(ModBlocks.EDGEHANGER_SAPLING);
+                        entries.add(ModBlocks.EDGEHANGER_FENCE);
+                        entries.add(ModBlocks.EDGEHANGER_FENCE_GATE);
+                        entries.add(ModBlocks.EDGEHANGER_DOOR);
                         entries.add(ModBlocks.END_STONE_BRICKS_CRACKED);
                         entries.add(ModBlocks.END_STONE_CHISELED);
                         entries.add(ModBlocks.END_STONE_PILLAR);

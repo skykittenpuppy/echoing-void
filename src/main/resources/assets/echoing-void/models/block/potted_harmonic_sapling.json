@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "echoing-void:block/harmonic_sapling",
+    "dirt": "echoing-void:block/lurid_ephyta"
+  }
+}
